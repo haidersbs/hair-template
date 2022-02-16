@@ -1,0 +1,108 @@
+/*`xxl` applies to x-large devices (large desktops, less than 1400px)*/
+@media (max-width: 1399.98px) {
+
+
+
+
+
+ }
+
+
+/*`xl` applies to large devices (desktops, less than 1200px)*/
+@media (max-width: 1199.98px) {
+     
+
+    .mynavCn {
+        width: 90%;
+    }
+    .myRow{
+        width: 100%;
+    }
+ }
+
+
+/*`lg` applies to medium devices (tablets, less than 992px)*/
+@media (max-width: 991.98px) { 
+
+    div#navbarSupportedContent {
+        margin-top: 5%;
+    }
+    .subscribe-cont h4 {
+        display: inline-block!important;
+    }
+    .subscribe-cont p {
+        display: block!important;
+        font-size: 14px;
+        padding-left: 0!important;
+    }
+
+    .service-item {
+        width: 50%
+    }
+    hr{
+        display: none;
+    }
+
+    .card-body h5{
+        font-size: 16px;
+    }
+    .card-body p{
+        font-size: 13px;
+    }
+ }
+
+/*`md` applies to small devices (landscape phones, less than 768px)*/
+@media (max-width: 767.98px) { 
+
+    .service-item {
+        width: 100%
+    }
+    hr{
+        display: none;
+    }
+
+    .abt-img, .mission-img{
+        width: 100%;
+    }
+ }
+
+/*`sm` applies to x-small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) { 
+
+   
+    .carousel-content h2 {
+        font-size: 24px;
+    }
+    
+    .carousel-content p {
+        font-size: 16px;
+    }
+    .beuty-cl {
+        margin-bottom: 1rem;
+    }
+    .teamCard{
+        margin: auto;
+        margin-bottom: 1rem;
+    }
+    .filters {width: 60%;margin: auto;}
+
+.filters ul li {
+    font-size: 10px;
+    padding: 10px!important;
+    margin-bottom: 10px;
+}
+.col-md-4.text-end {
+    text-align: center!important;
+}
+
+.col-md-8.subscribe-cont {
+    margin: auto;
+    text-align: center;
+}
+
+ }
+
+
+
+
+

@@ -1,17 +1,8 @@
 /*`xxl` applies to x-large devices (large desktops, less than 1400px)*/
-@media (max-width: 1399.98px) {
-
-
-
-
-
- }
-
+@media (max-width: 1399.98px) { }
 
 /*`xl` applies to large devices (desktops, less than 1200px)*/
 @media (max-width: 1199.98px) {
-     
-
     .mynavCn {
         width: 90%;
     }
@@ -100,9 +91,24 @@
     text-align: center;
 }
 
+header#home {
+    padding: 50px 0;
+}
+
+section#service {
+    padding: 0!important;
+}
+
+section#service .row {
+    padding: 0!important;
+}
+section#about h2 {
+    margin-top: 1rem;
+}
+
+section#missiom {
+    padding: 0!important;
+}
+
+
  }
-
-
-
-
-

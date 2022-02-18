@@ -39,17 +39,10 @@ header{
     background: #180729 !important;
 }
 
-.nav-link.bg-primary.rounded-pill.pe-4.ps-4.active {
-    background: #552882 !important;
-    border: none!important;
-    outline: none!important;
+.hover-menu{
+    border-radius: 50rem;
 }
-
-.nav-link.bg-primary.rounded-pill.pe-4.ps-4:hover{
-    background: #552882 !important;
-}
-
-.hover-menu:hover {background: #552882;border-radius: 50rem;}
+.hover-menu:hover {background: #552882 !important;border-radius: 50rem;}
 
 .carouselCon{
     width: 80%;
@@ -229,9 +222,6 @@ margin-top: -12.5px;}
 }
 /* end subscribe */
 /* team part */
-section#team {
-    padding-bottom: 120px!important;
-}
 .team-content h2{
     font-family: 'Courgette', cursive; 
 }

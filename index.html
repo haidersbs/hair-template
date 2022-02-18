@@ -14,7 +14,7 @@
 
 
     <header id="home" class="position-relative">
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark pt-3 pb-4">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark pt-3 pb-4 fixed-top">
             <div class="container mynavCn">
               <a class="navbar-brand text-light fw-bold fs-4" href="#">Hair<span style="color:#f150bf !important">Style</span> </a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -23,25 +23,25 @@
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                   <li class="nav-item">
-                    <a class="nav-link bg-primary rounded-pill pe-4 ps-4 active" aria-current="page" href="#home">Home</a>
+                    <a id="homeLink" class="nav-link  pe-4 ps-4 text-light hover-menu" aria-current="page" href="#home">Home</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link pe-4 ps-4 text-light hover-menu" href="#service">Services</a>
+                    <a id="servicLink" class="nav-link pe-4 ps-4 text-light hover-menu" href="#service">Services</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link pe-4 ps-4 text-light hover-menu" href="#about">About</a>
+                    <a id="aboutLink" class="nav-link pe-4 ps-4 text-light hover-menu" href="#about">About</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link pe-4 ps-4 text-light hover-menu" href="#portfolio">Portfolio</a>
+                    <a id="portLink" class="nav-link pe-4 ps-4 text-light hover-menu" href="#portfolio">Portfolio</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link pe-4 ps-4 text-light hover-menu" href="#team">Team</a>
+                    <a id="teamLink" class="nav-link pe-4 ps-4 text-light hover-menu" href="#team">Team</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link pe-4 ps-4 text-light hover-menu" href="#pricing">Price</a>
+                    <a id="priceLink" class="nav-link pe-4 ps-4 text-light hover-menu" href="#pricing">Price</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link pe-4 ps-4 text-light hover-menu" href="#">Contact</a>
+                    <a id="conLink" class="nav-link pe-4 ps-4 text-light hover-menu" href="#">Contact</a>
                   </li>
                 </ul>
               </div>
@@ -104,7 +104,7 @@
     </header>
     <!-- // end header -->
 
-    <section id="service"  class="service-part p-5">
+    <section id="service"  class="service-part py-3">
         <div class="container pb-5">
             <div class="row mt-5 pb-5 pt-5">
                 <div class="col-md-8 service-content m-auto  text-center">
@@ -113,10 +113,10 @@
                 </div>
             </div>
 
-            <div class="row myRow m-auto mt-2 d-flex justify-content-around  pb-4 pt-5">
+            <div class="row myRow m-auto mt-2 d-flex justify-content-around py-3">
                 <div class="col-md-6 col-lg-4 col-sm-6 service-item text-center p-4">
                     <div class="service-icon mb-4">
-                        <img src="images/4.svg" width="85" alt="">
+                        <img src="images/4.svg" class="" width="85" alt="">
                     </div>
                     <h3 class="fw-bold">HOME INTERIOR</h3>
                     <p class="text-muted ">Achieve virtually any look and layout design within one UI Kit solution.</p>
@@ -124,7 +124,7 @@
 
                 <div class="col-md-6 col-lg-4 col-sm-6 service-item text-center p-4">
                     <div class="service-icon mb-4">
-                        <img src="images/1.svg" width="85" alt="">
+                        <img src="images/1.svg" class="" width="85" alt="">
                     </div>
                     <h3 class="fw-bold">CUSTOM DESIGN</h3>
                     <p class="text-muted ">We strive to figure out ways to help your audience grow through all platforms.</p>
@@ -132,18 +132,17 @@
 
                 <div class="col-md-6 col-lg-4 col-sm-6 service-item text-center p-4">
                     <div class="service-icon mb-4">
-                        <img src="images/5.svg" width="85" alt="">
+                        <img src="images/5.svg" class="" width="85" alt="">
                     </div>
                     <h3 class="fw-bold">BUSINESS INTERIOR</h3>
                     <p class="text-muted">Find what you need in one template and combine features at will.</p>
                 </div>
 
                 <hr class="my-3 m-auto">
-
                  
               <div class="col-md-6 col-lg-4 col-sm-6 service-item text-center p-4">
                 <div class="service-icon mb-4">
-                    <img src="images/3.svg" width="85" alt="">
+                    <img src="images/3.svg" class="" width="85" alt="">
                 </div>
                 <h3 class="fw-bold">SECURITY SETUP</h3>
                 <p class="text-muted ">Easy and fast adjustments of elements are possible with WenTo UI Kit.</p>
@@ -151,7 +150,7 @@
 
             <div class="col-md-6 col-lg-4 col-sm-6 service-item text-center p-4">
                 <div class="service-icon mb-4">
-                    <img src="images/6.svg" width="85" alt="">
+                    <img src="images/6.svg" class="" width="85" alt="">
                 </div>
                 <h3 class="fw-bold">CUSTOM PAINT</h3>
                 <p class="text-muted ">Our React Powered App will save you tons of time and cost in your projects.</p>
@@ -159,33 +158,27 @@
 
             <div class="col-md-6 col-lg-4 col-sm-6 service-item text-center p-4">
                 <div class="service-icon mb-4">
-                    <img src="images/2.svg" width="85" alt="">
+                    <img src="images/2.svg" class="" width="85" alt="">
                 </div>
                 <h3 class="fw-bold">HOME DECOR</h3>
                 <p class="text-muted">Power your app with Angular components for no cost within one stop solution.</p>
             </div>
-
-
             </div>
-
-           
-          
-
         </div>
     </section>
 
     <!-- // end service part -->
 
     <!-- beauty part start -->
-    <section id="beauty" class="beauty-part pt-5 pb-5" style="background-color: #180729 !important;">
+    <section id="beauty" class="beauty-part py-3" style="background-color: #180729 !important;">
       <div class="container">
-        <div class="row mt-5 pb-5 pt-5">
+        <div class="row mt-5 py-5">
           <div class="col-md-8 beauty-content m-auto  text-center">
               <h2 class="fw-bold fs-1 mb-3 text-light">Best Offers</h2>
               <p class="text-light fs-6">There are many variations of passages of Lorem Ipsum available, but the majority</p>
           </div>
       </div>
-          <div class="row myRow d-flex justify-content-around p-5 mt-5 ">
+          <div class="row myRow d-flex justify-content-around py-5 ">
               <div class="col-md-4 col-lg-4 col-sm-12 mb-sm-2 beuty-cl card-cl d-flex justify-content-around">
                   <div class="card bg-dark mycard" style="width: 18rem;">
                       <img src="https://webthemez.com/demo/hair-style-salon-bootstrap-template/assets/img/portfolio/img4.jpg" class="card-img-top" alt="...">
@@ -221,15 +214,15 @@
   <!-- // end beauty part -->
 
   <!-- about part start -->
-  <section id="about" class="about-part pb-5 pt-5 bg-light">
+  <section id="about" class="about-part py-3 bg-light">
     <div class="container">
-      <div class="row mt-5 pb-5 pt-5">
+      <div class="row mt-5 py-4">
         <div class="col-md-8 about-content m-auto  text-center">
             <h2 class="fw-bold fs-1 mb-3">About Us</h2>
             <p class="text-muted fs-6 fw-light">WenTo creative technology company providing key digital services for everyone.</p>
         </div>
     </div>
-    <div class="row myRow d-flex align-items-center m-auto mt-4 pb-5 pt-5">
+    <div class="row myRow d-flex align-items-center m-auto mt-2 py-5">
       <div class="col-md-6">
         <img src="images/1.jpg" class="rounded-img abt-img mb-sm-2" width="90%" alt="">
       </div>
@@ -243,9 +236,9 @@
   <!-- // end about part -->
 
   <!-- mission -->
-  <section id="missiom" class="mission-part pb-5 pt-5">
+  <section id="missiom" class="mission-part py-5">
     <div class="container">
-    <div class="row myRow d-flex align-items-center m-auto mt-5 pb-5 pt-5">
+    <div class="row myRow d-flex align-items-center m-auto mt-2 py-5">
       <div class="col-md-6 mb-sm-2">
         <h2>Our Mission and Goals</h2>
         <p class="text-muted pl mt-4">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius eligendi fugiat!</p>
@@ -259,8 +252,8 @@
   <!-- // end mission -->
 
 <!--Start Portfolio-->
-<section id="portfolio" class="portfolio-page pad-tb pb-5 pt-5">
-  <div class="container pb-5 mt-5">
+<section id="portfolio" class="portfolio-page pad-tb py-5">
+  <div class="container py-5">
     <div class="row myRow justify-content-left">
       <div class="col-lg-6">
         <div class="common-heading pp">
@@ -368,7 +361,7 @@
 <!--End Portfolio-->
 
 <!-- subscribe part -->
-<section id="subscribe" class="subscribe-part bg-dark p-5">
+<section id="subscribe" class="subscribe-part bg-dark py-5">
   <div class="container">
     <div class="row myRow text-light  align-items-center">
       <div class="col-md-8 subscribe-cont">
@@ -384,15 +377,15 @@
 <!-- // end subscribe part -->
 
 <!-- team part start -->
-<section id="team" class="team-part pt-5 pb-5 bg-light">
+<section id="team" class="team-part py-5 bg-light">
   <div class="container">
-    <div class="row mt-5 pb-5 pt-5">
+    <div class="row py-5">
       <div class="col-md-8 team-content m-auto  text-center">
           <h2 class="fw-bold fs-1 mb-3">Our Team</h2>
           <p class="text-black fs-6 fw-light">WenTo creative technology company providing key digital services for everyone.</p>
       </div>
   </div>
-  <div class="row myRow text-center justify-content-around p-3">
+  <div class="row myRow text-center justify-content-around py-5">
     <div class="col-md-6 col-lg-3 col-sm-6 d-flex mb-md-2 mb-sm-2">
       <div class="card teamCard" style="width: 18rem;">
         <img src="images/img1.jpg" class="card-img-top" alt="...">
@@ -447,15 +440,15 @@
 <!-- // end team part -->
 
 <!-- pricing part -->
-<section id="pricing" class="pricing-part mb-5 pt-5 pb-5">
+<section id="pricing" class="pricing-part py-5">
   <div class="container">
-    <div class="row mt-5 pb-5 pt-5">
+    <div class="row py-5">
       <div class="col-md-8 pricing-content m-auto  text-center">
           <h2 class="fw-bold fs-1 mb-3">Price</h2>
           <p class="text-black fs-6 fw-light">WenTo creative technology company providing key digital services for everyone.</p>
       </div>
   </div>
-  <div class="row myRow justify-content-around p-3">
+  <div class="row myRow justify-content-around py-5">
     <div class="col-md-4 col-lg-4 col-sm-12 d-flex justify-content-around p-2">
       <div class="card text-center border border-3 border-dark p-3" style="width: 20rem;">
         <div class="card-body">
@@ -544,12 +537,12 @@
 <!-- // end subscribe part -->
 
 <!-- testimonial start -->
-<section id="testimonial" class="testimonial-part pb-5 pt-5">
+<section id="testimonial" class="testimonial-part py-5">
   <div class="container">
-    <div class="row mt-5 pb-5 pt-5">
+    <div class="row py-5">
       <div class="col-md-8 testi-content m-auto  text-center">
-          <h2 class="fw-bold fs-1 mb-3">Price</h2>
-          <p class="text-black fs-6 fw-light">WenTo creative technology company providing key digital services for everyone.</p>
+          <h2 class="fw-bold fs-1 mb-3">Testimonials</h2>
+          <p class="text-black fs-6 fw-light">Maxi creative technology company providing key digital services for everyone.</p>
       </div>
   </div>
   <div class="row myRow justify-content-center align-items-center pt-5 pb-5">
@@ -593,9 +586,7 @@
   
 </footer>
  
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>   
-<!-- <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>  -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 <script src="jquery-3.6.0.min.js"></script>
 <script src="plugin.min.js"></script>
 

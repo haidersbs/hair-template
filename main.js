@@ -3,40 +3,11 @@ $(document) .ready(function(){
 
   // nav bar
 
-  $('#homeLink') .click(function(){
-    $(this).css('background', '#552882');
-    $('ul li a:gt(0)').css('background', 'transparent');
-  });
-
-  $('#servicLink').click(function () {
-    $(this).css('background', '#552882');
-    $('ul li a:gt(1), ul li a:lt(1) ').css('background', 'transparent');
+  $('ul li a').click(function(){
+    $('li a').removeClass("active");
+    $(this).addClass("active");
 });
 
-$('#aboutLink').click(function () {
-  $(this).css('background', '#552882');
-  $('ul li a:gt(2), ul li a:lt(2) ').css('background', 'transparent');
-});
-
-$('#portLink').click(function () {
-  $(this).css('background', '#552882');
-  $('ul li a:gt(3), ul li a:lt(3) ').css('background', 'transparent');
-});
-
-$('#teamLink').click(function () {
-  $(this).css('background', '#552882');
-  $('ul li a:gt(4), ul li a:lt(4) ').css('background', 'transparent');
-});
-
-$('#priceLink').click(function () {
-  $(this).css('background', '#552882');
-  $('ul li a:gt(5), ul li a:lt(5) ').css('background', 'transparent');
-});
-
-$('#conLink').click(function () {
-  $(this).css('background', '#552882');
-  $('ul li a:gt(3), ul li a:lt(3) ').css('background', 'transparent');
-});
 
 //Portfolio Filter		
 $('.card-list').imagesLoaded(function () {

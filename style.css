@@ -39,7 +39,8 @@ header{
     background: #180729 !important;
 }
 
-.hover-menu{
+.active{
+    background: #552882;
     border-radius: 50rem;
 }
 .hover-menu:hover {background: #552882 !important;border-radius: 50rem;}

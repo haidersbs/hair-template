@@ -29,6 +29,7 @@ h1, h2, h3, h4{
 
 header{
     width: 100%;
+    height: 85px;
 }
 
 .mynavCn{
@@ -37,6 +38,7 @@ header{
 
 .bg-dark {
     background: #180729 !important;
+    height: 85px;
 }
 
 .active{

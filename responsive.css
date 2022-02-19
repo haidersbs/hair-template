@@ -40,6 +40,11 @@
     .card-body p{
         font-size: 13px;
     }
+
+    ul.navbar-nav.ms-auto.mb-2.mb-lg-0 {
+        background: #180729 !important;
+        width: 100%;
+    }
  }
 
 /*`md` applies to small devices (landscape phones, less than 768px)*/
@@ -53,6 +58,11 @@
     }
 
     .abt-img, .mission-img{
+        width: 100%;
+    }
+
+    ul.navbar-nav.ms-auto.mb-2.mb-lg-0 {
+        background: #180729 !important;
         width: 100%;
     }
  }
@@ -103,6 +113,11 @@ section#about h2 {
 
 section#missiom {
     padding: 0!important;
+}
+
+ul.navbar-nav.ms-auto.mb-2.mb-lg-0 {
+    background: #180729 !important;
+    width: 100%;
 }
 
 

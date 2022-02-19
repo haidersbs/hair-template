@@ -36,9 +36,12 @@ header{
     width: 82%;
 }
 
+nav{
+    height: 85px;
+}
+
 .bg-dark {
     background: #180729 !important;
-    height: 85px;
 }
 
 .active{

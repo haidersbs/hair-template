@@ -283,3 +283,30 @@ blockquote.blockquote.m-0.d-flex.p-5::after {
     font-size: 13px!important;
 }
 /* end testimonial */
+
+/* contact form */
+.sendBtn{
+    background: #f150bf !important;
+    border: none;
+}
+.form-h {
+    height: 3rem;
+}
+.cardbox{
+    border: 1px solid #ced4da;
+}
+.icon-box i{
+    color: #f150bf !important;
+    font-size: 24px;
+}
+/* end contact form */
+
+/* footer */
+footer{
+    background: #552882 !important;
+}
+footer p{
+    font-size: 12px;
+    display: contents;
+}
+/* end footer */

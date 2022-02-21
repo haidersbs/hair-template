@@ -65,6 +65,14 @@
         background: #180729 !important;
         width: 100%;
     }
+
+    .footer-p {
+        text-align: center;
+    }
+    
+    .f-social {
+        text-align: center!important;
+    }
  }
 
 /*`sm` applies to x-small devices (portrait phones, less than 576px)*/
@@ -118,6 +126,14 @@ section#missiom {
 ul.navbar-nav.ms-auto.mb-2.mb-lg-0 {
     background: #180729 !important;
     width: 100%;
+}
+
+.footer-p {
+    text-align: center;
+}
+
+.f-social {
+    text-align: center!important;
 }
 
 
